@@ -25,7 +25,9 @@ Run the follwing commaind in your terminal:
 ## 5. Start app
 
 To run the app, you need to enter
-    **node my_ciphering_cli**
+
+    node my_ciphering_cli
+
 with the following options:
 
 1.  -c, --config (obligatory): config for ciphers Config is a string with pattern {XY(-)}n, where:
