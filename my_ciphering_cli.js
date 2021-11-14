@@ -19,6 +19,8 @@ const init = () => {
         return handleError('Config must be passed after the key "-c" or "--config"');
     }
 
+    console.log(isInputPassed, isOutputPassed,)
+
     switch (true) {
         case isInputPassed && isOutputPassed:
             return fromFileToFile(cliOptions);
