@@ -1,0 +1,19 @@
+{
+  "name": "ciphering-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my_ciphering_cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anival-github/node-course.git"
+  },
+  "author": "Valentin Anikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anival-github/node-course/issues"
+  },
+  "homepage": "https://github.com/anival-github/node-course#readme"
+}
