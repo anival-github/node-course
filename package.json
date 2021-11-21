@@ -4,8 +4,8 @@
   "description": "",
   "main": "MyCipheringCLI.js",
   "scripts": {
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.3.1"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 85,
+        "lines": 70
+      }
+    }
   }
 }
