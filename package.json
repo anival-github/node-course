@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anival-github/node-course/issues"
   },
-  "homepage": "https://github.com/anival-github/node-course#readme"
+  "homepage": "https://github.com/anival-github/node-course#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
