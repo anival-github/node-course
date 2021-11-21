@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { parseCliOptions } = require('./lib/cliOptionsParser');
 const {
     fromFileToFile,
@@ -5,6 +7,7 @@ const {
     fromConsoleToFile,
     fromConsoleToConsole,
 } = require('./lib/processInput');
+const handleError = require('./lib/errorHandler')
 
 const init = () => {
     const cliOptions = parseCliOptions();
@@ -18,8 +21,6 @@ const init = () => {
     if (!isConfigPassed) {
         return handleError('Config must be passed after the key "-c" or "--config"');
     }
-
-    console.log(isInputPassed, isOutputPassed,)
 
     switch (true) {
         case isInputPassed && isOutputPassed:

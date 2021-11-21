@@ -2,9 +2,10 @@
   "name": "ciphering-cli-tool",
   "version": "1.0.0",
   "description": "",
-  "main": "my_ciphering_cli.js",
+  "main": "MyCipheringCLI.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose",
+    "test:coverage": "jest --coverage --verbose"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/anival-github/node-course/issues"
   },
-  "homepage": "https://github.com/anival-github/node-course#readme"
+  "homepage": "https://github.com/anival-github/node-course#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.3.1"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 85,
+        "lines": 70
+      }
+    }
+  }
 }

@@ -26,7 +26,7 @@ Run the follwing commaind in your terminal:
 
 To run the app, you need to enter
 
-    node my_ciphering_cli
+    node MyCipheringCLI
 
 with the following options:
 
@@ -43,4 +43,4 @@ with the following options:
 
 ## Usage example:
 
-    node my_ciphering_cli -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
+    node MyCipheringCLI -c "C1-C1-R0-A" -i "./input.txt" -o "./output.txt"
